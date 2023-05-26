@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Páscoa </title>
+</head>
+<style>
+    .darkmode:root {
+        --bg: #181818;
+        --color: #ffffff9f;
+        --footer: #161616;
+        --colorb: black;
+        --colorg: #ffffff57;
+    }
+
+    body {
+        height: auto;
+        background-color: var(--bg);
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 5px;
+        font-size: 35px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 25px;
+        text-indent: 40px;
+    }
+
+    .box {
+        width: 90%;
+        height: 95%;
+        border-radius: 20px;
+        color: var(--color);
+        padding: 30px;
+        border: 1px solid black;
+        box-shadow: 2px 2px 8px rgb(172, 172, 172);
+        margin: 50px 0 50px 0;
+    }
+
+    .titulo img,
+    .semana,
+    img {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .poema {
+        display: flex;
+        float: right;
+    }
+
+    .txt-poema p {
+        text-indent: 0px;
+    }
+
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .footer {
+        background-color: var(--footer);
+        padding: 60px 0;
+        color: var(--color);
+        margin-top: 100px;
+    }
+
+    .footer-col {
+        width: 20%;
+        padding: 0 15px;
+    }
+
+    .footer-col h4 {
+        font-size: 25px;
+        color: var(--color);
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: var(--footer);
+        height: 2px;
+        box-sizing: border-box;
+        width: 200px;
+    }
+
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        font-size: 16px;
+        text-decoration: none;
+        color: var(--color);
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    .footer-col ul li a:hover {
+        color: rgb(25, 0, 255);
+        padding-left: 8px;
+    }
+
+    @media(max-width: 767px) {
+        body {
+            height: auto;
+            width: auto;
+        }
+
+        .titulo img {
+            border-radius: 10px;
+            width: auto;
+            height: 150px;
+        }
+
+        .semana img,
+        .origem img {
+            width: auto;
+            height: 150px;
+        }
+
+        .poema img {
+            width: auto;
+            height: 150px;
+        }
+
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media(max-width: 574px) {
+        .footer-col {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <!-- 
+    
+- Parágrafo
+- Negrito
+- Itálico 
+- Ênfase
+- Sobrescrito
+- Subscrito
+- Del 
+- Quebra de linha (Num parágrafo, colocar 2 quebra de linha e outra com 6 quebra de linha)
+- Espaços em Branco (Num parágrafo colocar 10 espaços em branco e 20 em outro)
+- Usar quebra de palavra e  hifenização em pelo menos 10 palavras
+- Usar os sinais de símbolos especiais (São necessários usar 20 símbolos)
+
+-->
+
+    <div class="box">
+        <div class="titulo">
+            <h1> <em> Páscoa </em> </h1>
+            <div style="display: flex; justify-content: center;">
+                <img width="500px" height="300px"
+                    src="https://inobagpapeis.com.br/wp-content/uploads/2021/04/P%C3%A1scoa-1024x538.png" alt="">
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <p>
+                &bull;A <b>Páscoa</b> é uma celebração do calendário religioso crist&atilde;o em mem&oacute;ria à
+                crucificaç&atilde;o e à
+                ressurreição
+                de
+                Jesus
+                Cristo. A celebraç&atilde;o cristã inspirou<wbr>se em uma comemoraç&atilde;o judaica chamada pesach, que acontecia na
+                mesma
+                época
+                que Jesus supostamente foi crucificado e ressuscitou.
+            </p>
+
+            <p>
+                &bull;Uma característica bem conhecida da <b>Páscoa</b> &eacute; o fato de que sua celebraç&atilde;o
+                &eacute; m&oacute;vel, portanto,
+                todo
+                ano
+                ela &eacute;
+                realizada em uma data diferente. Os crit&eacute;rios usados para definir essa data foram estabelecidos
+                pelas
+                autoridades da Igreja Católica durante o <i> Concílio de Niceia, realizado no século IV d.C. </i>
+                <br><br>
+            </p>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+            <div class="origem">
+                <h2>Origem da Páscoa</h2>
+                <div style="display: flex; justify-content: center;">
+                    <img width="500px" height="300px"
+                        src="https://www.paulista.pe.gov.br/site/app/webroot/files/arquivos/210420191420400000000.png"
+                        alt="">
+                </div>
+            </div>
+            <p>
+                &bull;A <b> Páscoa </b> comemorada pelos crist&atilde;os &eacute; uma ressigni<wbr>ficação de uma festa judaica. No entanto, a
+                comemoração
+                cristã
+                e a judaica t&ecirc;m significados completamente distintos. Esta, chamada de pesach, era realizada pela
+                lembrança
+                da
+                libertação dos hebreus da escravidão no Egito.
+            </p>
+            <p>
+                &bull;Essa história &eacute; narrada nos “Pentateucos”, os cinco primeiros livros da Bíblia. A palavra
+                pesach, do
+                idioma
+                hebraico, significa “passagem” e faz menção à passagem do anjo da morte no Egito a d&eacute;cima praga,
+                conforme
+                a
+                narrativa bíblica. A festa foi revisada pelos cristãos, passando a relacionar<wbr>se à crucificação e
+                ressurreição
+                de Cristo." <br><br><br><br><br><br>
+            </p>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+            <h2>Importancia da Páscoa</h2>
+            <img src="" alt="">
+            <p>
+                &bull;"A <b> Páscoa </b>é, para muitos cristãos, a festa de maior importância do calendário religioso,
+                uma vez
+                que
+                ressalta um
+                acontecimento de grande importância dentro da fé cristã: a ressurreição entendida no cristianismo como
+                uma
+                demonstração da divindade de Jesus.
+            </p>
+            <p>
+                &bull;Essa ideia pode ser percebida na Bíblia, uma vez que ela registra uma fala de Paulo, que afirma
+                <i>(em I
+                    Coríntios
+                    15:14): “E, se Cristo não ressuscitou, logo é vã a nossa pregação, e também é vã a vossa fé”.</i>
+                Assim,
+                podemos
+                identificar a importância da ressurreição de Jesus dentro da visão religiosa do cristianismo.
+            </p>
+            <p>
+                &bull;Desse ponto de vista, foi por meio da ressurreição que a humanidade teve a redenção de seus
+                pecados.
+                Jesus
+                Cristo, portanto, voluntariamente sacrificou<wbr>se para redimir a humanidade e dar-lhe uma nova chance de
+                salvação.
+                Uma vez realizado o sacrífico, o poder de Deus teria se manifestado." <br><br><br><br><br><br>
+            </p>
+        </div>
+
+        <div>
+            <div class="semana">
+                <h2>Semana Santa</h2>
+                <br><br>
+                <div style="display: flex; justify-content: center;">
+                    <img width="500px" height="300px"
+                        src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3217055:1649821548/Pascoa.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=d5feb27"
+                        alt="">
+                </div>
+            </div>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;"O calend&aacute;rio litúrgico praticado pelos católicos acompanha a aproximação da Páscoa com
+                muita devoção. A
+                preparação dela é realizada no decorrer da quaresma período de 40 dias que antecede essa celebração e
+                quando
+                os fiéis realizam alguma penitência (o tipo de penitência é escolhida por cada pessoa).
+            </p>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;Outra marca importante dessa preparação é a Semana Santa, uma tradição que busca relembrar os
+                pas<wbr>sos de
+                Jesus
+                durante sua última semana, passando por sua cruci<wbr>ficação e ressurreição. Na tradição católica, a Semana
+                Santa é
+                iniciada no Domingo de Ramos e relembra a chegada triunfal de Jesus a Jerusalém."
+            </p>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;"A Semana Santa também relembra a Última Ceia, na Quinta-Feira Santa. Essa foi a última ceia de
+                Jesus
+                com
+                seus
+                discípulos. Ela foi realizada durante a celebração judaica citada (pesach), e nela Jesus anun<wbr>ciou que um
+                dos
+                discípulos o trairia e que os outros fugiriam perante a sua perseguição.
+            </p>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;Na Quinta-Feira Santa, é realizado o Rito do Lava-P&eacute;s como forma de relembrar o ato de
+                Jesus de
+                abaixar-se
+                para
+                lavar os p&eacute;s de seus discípulos no local que tomavam a ceia. O ato &eacute; entendido dentro da
+                crença cris<wbr>tã
+                como
+                uma
+                demonstração de um importante mandamento de Cristo: o de amar uns aos outros.
+            </p>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;Ainda na Quinta-Feira Santa, Jesus foi preso como resultado da traição de Judas Iscariotes. No
+                di<wbr>a
+                seguinte,
+                a
+                Sexta-Feira Santa, ele foi torturado e condenado à morte. A tradição cristã costuma encenar esses
+                acontecimentos
+                em peças teatrais conhecidas como Paixão de Cristo. Depois de condenado, Cristo foi crucifi<wbr>cado em uma
+                colina
+                conhecida como Gólgota.
+            </p>
+            &nbsp;
+            &nbsp;
+            <p>
+                &bull;O dia seguinte apos a semana santa, vem a crucifi<wbr>cação de Cristo, que &eacute; conhecido como S&aacute;bado de
+                Aleluia, e o
+                após isso vem o domingo
+                no qual ele ressuscitou &eacute; o denominando-se de Domingo de P&aacute;scoa." <br><br><br><br><br><br>
+            </p>
+            
+            <div class="chocolate">
+                <div>
+                    <h2> Curiosidades: </h2>
+
+                    <p> O chocolate é um alimento amado pela maioria das pessoas, Quimicamente, recebe o nome
+                        5-hidroxitriptamina e é representada pela fórmula molecular
+                        N<sub>2</sub>OC<sub>10</sub>H<sub>12</sub>. sendo que para muitos,
+                        principalmente as mulheres, ele é considerado irresistível. Outros, porém, precisam evitá-lo,
+                        alguns dizem que
+                        ele vicia e que faz engordar.
+                    </p>
+
+                    <p>
+                        Os primeiros ovos de páscoa surgiram na França, que atualmente possui 551.695 km<sup>2</sup>,
+                        em que durante o século XVII, foi enxergado como um dos mais tradicionais símbolos associados com
+                        a fertilidade e com o ciclo e a renovação da vida.
+
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+            &nbsp;
+            &nbsp;
+            <hr>
+            <div>
+                <div style="padding: 30px;">
+                    <div class="poema">
+                        <img width="400px" height="300px"
+                            src="https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/0765c180d055e813f1941c8f45e5aa9a.jpg"
+                            alt="">
+                    </div>
+
+                    <div class="txt-poema">
+                        <h2> Poema da Páscoa </h2>
+                        <p>
+                            A Páscoa mais doce. <br>
+                            Não é coberta com chocolate. <br>
+                            É aquela recheada de amor, <br>
+                            fé, união, gratidão <br>
+                            e a humildade do perdão. <br>
+                            <br>
+                            Num momento de reflexão e renovação. <br>
+                            Ajudar o próximo estendendo a mão. <br>
+                            Partilhando o amor sincero de alma <br>
+                            e coração. <br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <hr>
+                <div class="row">
+
+                    <div class="footer-col">
+                        <h4>Nossos Produtos</h4>
+                        <ul>
+                            <li><a href=""><del> Sites </del> </a></li>
+                            <li><a href=""><del> Projetos </del> </a></li>
+                            <li><a href=""><del> eBooks </del> </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Mais Informações</h4>
+                        <ul>
+                            <li><a href="https://www.instagram.com/myckaelandradex/?next=%2F"><del> Instagram </del></a></li>
+                            <li><a href=""><del> Facebook </del></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCELoYfKebUxcUFQASm2UrrA"><del> Youtube </del></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href=""><del> Email </del></a></li>
+                            <li><a href=""><del> Linkedin </del></a></li>
+                            <li><a href=""><del> Whatsapp </del></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Sobre Nós</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                        <p style="font-size: 15px;">&copy; Myckael S. Andrade</p> 
+                        </p>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu">
+                            <label for="switch">
+                                <input type="checkbox" id="switch">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    <script>
+        const $html = document.querySelector('html')
+        const $checkbox = document.querySelector('#switch')
+        $checkbox.addEventListener('change', function () {
+            $html.classList.toggle('darkmode')
+        })
+    </script>
+
+</body>
+
+</html>
